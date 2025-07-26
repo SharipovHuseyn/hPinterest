@@ -1,0 +1,52 @@
+.image-link {
+  position: relative;
+  display: inline-block;
+}
+
+.image-link img {
+  width: 100%;
+  border-radius: 15px;
+  z-index: 1;
+  display: block;
+}
+
+.folder-download,
+.solid-like {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.folder-download {
+  right: 40px;
+}
+
+.solid-like {
+  right: 10px;
+}
+
+.image-link:hover .folder-download,
+.image-link:hover .solid-like {
+  display: block;
+}
+
+.cart p {
+  margin-top: 0;
+  margin-left: 5px;
+  font-size: 70%;
+}
+
+.cart {
+  margin: 10px;
+}
+
+.my-masonry-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}

@@ -1,0 +1,116 @@
+* {
+  font-family: sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo-link{
+  text-decoration: none;
+  color: black;
+}
+
+.logo h3 {
+  margin-left: 10px;
+}
+
+main {
+  width: 80%;
+  background-color: white;
+  height: 90vh;
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Полупрозрачная граница */
+  box-shadow: 
+    0 4px 30px rgba(0, 0, 0, 0.1), /* Внешняя тень */
+    inset 0 0 10px rgba(255, 255, 255, 0.5); /* Внутреннее свечение */
+}
+
+.continer {
+  display: flex;
+  justify-content: center;
+}
+
+.control-panel {
+  width: 250px;
+  border-right: 1px solid rgba(128, 128, 128, 0.182);
+}
+
+.main-show {
+  overflow-y: auto;
+  width: 100%;
+
+  &::-webkit-scrollbar-thumb {
+    transition: background 0.3s ease;
+  }
+
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(216, 216, 216, 0.3);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    min-height: 50px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(135, 135, 135, 0.323);
+  }
+}
+
+.search-pannel {
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-buttons button {
+  margin: 0 0 0 15px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.search input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: rgb(244, 244, 244);
+  font-size: 16px;
+}
+
+.insights{
+  color: rgb(114, 114, 114);
+  font-size: 80%;
+  padding: 0 30px;
+  margin-top: 30px;
+}

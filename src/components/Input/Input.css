@@ -1,0 +1,16 @@
+.upload-input{
+    border: 1px solid rgba(128, 128, 128, 0.182);
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    background-clip: text;
+    resize: none;
+}
+
+
+.upload-label{
+    color: rgba(55, 55, 55, 0.438);
+    font-size: 12px;
+    margin-left: 10px;
+}
